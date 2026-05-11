@@ -1,3 +1,6 @@
+// Конфигурация API (ВАЖНО: это URL вашего бэкенда на Render)
+const API_URL = 'https://meat-shop-miniapp.onrender.com/api/send-order';
+
 // Данные товаров (в реальном приложении будут загружаться с сервера)
 const products = [
     {
