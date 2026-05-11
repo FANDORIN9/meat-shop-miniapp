@@ -1,6 +1,3 @@
-// Конфигурация API (ВАЖНО: это URL вашего бэкенда на Render)
-const API_URL = 'https://meat-shop-miniapp.onrender.com/api/send-order';
-
 // Данные товаров (в реальном приложении будут загружаться с сервера)
 const products = [
     {
@@ -555,7 +552,7 @@ document.querySelectorAll('[data-page="catalog-page"]').forEach(button => {
 async function sendOrderToTelegram(orderData) {
     try {
         // Отправляем данные на ваш сервер/бэкенд
-        const response = await fetch('/api/send-order', {
+        const response = await fetch('https://meat-shop-miniapp.onrender.com/api/send-order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
