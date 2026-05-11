@@ -1,0 +1,4 @@
+# .gitignore файл
+.env
+__pycache__/
+*.py[cod]
